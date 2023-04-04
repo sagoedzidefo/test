@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Purple+Purse&family=Red+Hat+Display:wght@400;600;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* title page */
+.navy{
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.topbar{
+  background-color:#E8694D;
+  height: 100px;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+}
+.d-flex{
+  background-color: #ffffff;
+  border-radius: 50px;
+  margin-left: 128px;
+}
+.input-search{
+  border-style: none;
+  border-radius: 50px;
+  margin-left: -13px;
+}
+.button-btn{
+  border-style: none;
+  border-radius: 50px;
+}
+.search-icon{
+  color: #E8694D;
+}
+.f-icons{
+  font-size: 30px;
+  padding-right: 60px;
+}
+.nav-link{
+  color: #ffffff;
+  margin-left: 50px;
+  position: relative;
+  transition: all 0.02s;
+}
+.nav-link:hover{
+  border-bottom: solid 2px white;
+}
+/* optional hover underline */
+/* .nav-link::after{
+  content: '';
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 80%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover::after{
+  opacity: 1;
+} */
+.nav-link{ color:#ffffff !important; }
+.nav-link:hover, .nav-link:visited{ color:#ffffff !important;
+}
+
+.main-page{
+  background: linear-gradient(110.4deg, #F07C3A 0.78%, #E8694D 95.03%);
+  margin: 0;
+}
+
+.sub-3{
+  width: 100%;
+  padding-top: 60px;
+}
+.title-text{
+  padding: 3% 10%;
+  color: #ffffff;
+}
+h1{
+  font-family: 'Purple Purse', cursive;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 1;
+}
+.title-text p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  white-space: nowrap;
+  padding-bottom: 50px;
+}
+.title-btn{
+  background-color: #ffffff;
+  color: #E8694D; 
+  font-weight: 700;
+  height: 64px;
+  width: 265px; 
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.2);
+}
+.social{
+  font-size: 30px;
+  padding-bottom: 140px;
+}
+.carousel-page{
+  padding: 50px 50px 50px 50px;
+}
+.hov-1{
+  position: relative;
+  width: 100%;
+  padding: 0 50px;
+}
+.overlay{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  right: 50px;
+  bottom: 0;
+  left: 50px;
+  top: 0;
+  overflow: hidden;
+}
+.overlay h5{
+  padding-top: 15%;
+  font-family: 'Purple Purse', cursive;
+  font-size: 96px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.overlay p{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+/* gallery/shop */
+.gallery-shop{
+  margin-top: 70px;
+  padding: 0 50px;
+}
+.card{
+  border: none;
+}
+.card-text{
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.price{
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+@media only screen and (max-width: 1440px){
+  .title-text{
+    padding-top: 3%;
+    padding-left: 4%;
+  }
+  .d-flex{
+    margin-left: 35px;
+  }
+  h1{
+    font-size: 80px;
+  }
+  .title-text p{
+    font-size: 20px;
+  }
+  .title-btn{
+    width: 255px; 
+  }
+  .social{
+    font-size: 25px;
+    padding-bottom: 140px;
+  }
+  .nav-link{
+    margin-left: 30px;
+  }
+}
+ @media (min-width: 991px) and (max-width: 1080px){
+    .sub-3{
+      padding-top: 100px;
+    }
+  }
+@media only screen and (max-width: 991px){
+  .title-text{
+    padding-top: 3%;
+    padding-left: 10%;
+  }
+  h1{
+    font-size: 96px;
+  }
+  .title-text p{
+    font-size: 24px;
+  }
+  .title-btn{
+    width: 265px; 
+  }
+  .social{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 140px;
+  }
+  .sub-3{
+    width: 100%;
+  }
+  .d-flex{
+    display: none;
+  }
+  .input-search{
+    display: none;
+  }
+  .button-btn{
+    display: none;
+  }
+  .search-icon{
+    display: none;
+  }
+  .takeout{
+    display: none;
+  }
+  .f-icons{
+    display: none;
+  }
+  .navbar-toggler{
+    margin-right: 10%;
+  }
+  
+}
